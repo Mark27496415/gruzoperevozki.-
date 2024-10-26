@@ -1,0 +1,64 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #673ab7 ;
+    color:  #ffc107;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+ul {
+    list-style: disc; /* Добавляем стиль для списка */
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.grz {
+    text-align: center; /* Выравниваем текст по центру */
+    margin-bottom: 50px; /* Отступ снизу */
+    margin-top: 50px; /* Добавляем отступ сверху */
+}
+
+.firstname{
+    margin-top: 50px; /* Добавляем отступ сверху */
+    margin-bottom: 50px; /* Отступ снизу */
+}
+
+.secname{
+    margin-top: 50px; /* Добавляем отступ сверху */
+    margin-bottom: 70px; /* Отступ снизу */
+}
+
+.trucks {
+    display: flex; /* Делаем горизонтальный список */
+    justify-content: center; /* Выравниваем по центру */
+    gap: 100px; /* Отступ между картинками */
+}
+
+.truck {
+    text-align: center;
+}
+
+.truck img {
+    display: block;  /* Убираем лишний пробел после изображения */
+    margin: 0 auto;  /* Центрируем изображение */
+    margin-bottom: 10px; /* Отступ снизу от изображения */
+}
+
+.contacts {
+    border: 3px solid  #ffc107  ; /* Синяя рамка */
+    padding: 20px; /* Отступ от текста */
+    margin-top: 20px; /* Отступ сверху от текста */
+    border-radius: 40px; /* Добавляем закругленные углы */
+}
